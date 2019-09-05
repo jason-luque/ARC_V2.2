@@ -40,7 +40,7 @@ header('location:manageemployee.php');
     <head>
         
         <!-- Title -->
-        <title>Admin | Administrar usuarios</title>
+        <title>Admin | Administración usuarios</title>
         <link rel="icon" type="image/png" href="perfil/faviconcole.png" />
 
         
@@ -86,7 +86,7 @@ header('location:manageemployee.php');
             <main class="mn-inner">
                 <div class="row">
                     <div class="col s12">
-                        <div class="page-title">Administrar usuarios</div>
+                        <div class="page-title">Administración de usuarios</div>
                     </div>
                    
                     <div class="col s12 m12 l12">

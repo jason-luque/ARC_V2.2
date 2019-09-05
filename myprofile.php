@@ -43,7 +43,7 @@ $msg="Employee record updated Successfully";
     <head>
         
         <!-- Title -->
-        <title>Panel principal | arc501le </title>
+        <title>Mi perfil | arc501le </title>
         <link rel="icon" type="image/png" href="images/faviconcole.png" />
 
         
@@ -90,14 +90,14 @@ $msg="Employee record updated Successfully";
    <main class="mn-inner">
                 <div class="row">
                     <div class="col s12">
-                        <div class="page-title">Actualizar empleado</div>
+                        <div class="page-title">Actualizar información</div>
                     </div>
                     <div class="col s12 m12 l12">
                         <div class="card">
                             <div class="card-content">
                                 <form id="example-form" method="post" name="updatemp">
                                     <div>
-                                        <h3>Actualizar información del empleado</h3>
+                                        <h3>ACTUALIZAR INFORMACIÓN DE MI PEFIL</h3>
                                            <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
                 else if($msg){?><div class="succWrap"><strong>SUCCESS</strong> : <?php echo htmlentities($msg); ?> </div><?php }?>
                                         <section>
@@ -118,7 +118,7 @@ if($query->rowCount() > 0)
 foreach($results as $result)
 {               ?> 
  <div class="input-field col  s12">
-<label for="empcode">Código del usuario</label>
+<label for="empcode">Código del usuario (ID)</label>
 <input  name="empcode" id="empcode" value="<?php echo htmlentities($result->EmpId);?>" type="text" autocomplete="off" readonly required>
 <span id="empid-availability" style="font-size:12px;"></span> 
 </div>

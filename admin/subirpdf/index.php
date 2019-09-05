@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <?php
 include_once 'config.inc.php';
 if (isset($_POST['subir'])) {
@@ -36,7 +32,9 @@ if (isset($_POST['subir'])) {
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Panel de archivos</title>
+        <title>Panel de archivos | arc501le</title>
+        <link rel="icon" type="image/png" href="../../images/faviconcole.png" />
+
         <!-- Styles -->
         <link type="text/css" rel="stylesheet" href="../../assets/plugins/materialize/css/materialize.min.css"/>
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -45,7 +43,7 @@ if (isset($_POST['subir'])) {
         <link href="../../assets/css/custom.css" rel="stylesheet" type="text/css"/>
     </head>
     </head>
-    <body background="../../images/logoCole.jpg">
+    <body background="images/background.jpg">
         <br></br>
         <div style="width: 500px;margin: auto;border: 2px solid black;padding: 10px;">
             <center>
