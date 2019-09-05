@@ -49,7 +49,7 @@
                             </a>
                         </section>
                         <div class="header-title col s3">      
-                            <span class="chapter-title">tusolutionweb tutos | Admin</span>
+                            <span class="chapter-title">Panel administrador</span>
                         </div>
                       
                         <ul class="right col s9 m3 nav-right-menu">
@@ -72,7 +72,7 @@ $unreadcount=$query->rowCount();?>
                         <ul id="dropdown1" class="dropdown-content notifications-dropdown">
                             <li class="notificatoins-dropdown-container">
                                 <ul>
-                                    <li class="notification-drop-title">Notifications</li>
+                                    <li class="notification-drop-title">Notificationes</li>
 <?php 
 $isread=0;
 $sql = "SELECT tblleaves.id as lid,tblemployees.FirstName,tblemployees.LastName,tblemployees.EmpId,tblleaves.PostingDate from tblleaves join tblemployees on tblleaves.empid=tblemployees.id where tblleaves.IsRead=:isread";
