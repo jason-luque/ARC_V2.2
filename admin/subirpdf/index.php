@@ -44,6 +44,7 @@ if (isset($_POST['subir'])) {
     </head>
     </head>
     <body background="images/background.jpg">
+
         <br></br>
         <div style="width: 500px;margin: auto;border: 2px solid black;padding: 10px;">
             <center>
@@ -66,6 +67,7 @@ if (isset($_POST['subir'])) {
                         <td><input type="submit" value="Subir" name="subir"></td>
                         <center>
                         <a class="btn btn-primary" href="lista.php" role="button">Ver mis archivo</a>
+                        <a class="btn btn-primary" href="../dashboard.php" role="button">Regresar</a>
                     </center>
                     </tr>
                 </table>

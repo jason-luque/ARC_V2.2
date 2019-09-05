@@ -49,7 +49,7 @@ else{
                         <div class="card stats-card">
                             <div class="card-content">
                             
-                                <span class="card-title">Usuarios</span>
+                                <span class="card-title">Usuarios registrados</span>
                                 <span class="stats-counter">
 <?php
 $sql = "SELECT id from tblemployees";
@@ -68,7 +68,7 @@ $empcount=$query->rowCount();
                         <div class="card stats-card">
                             <div class="card-content">
                             
-                                <span class="card-title">Departamentos listados </span>
+                                <span class="card-title">Áreas registradas </span>
     <?php
 $sql = "SELECT id from tbldepartments";
 $query = $dbh -> prepare($sql);
@@ -84,7 +84,7 @@ $dptcount=$query->rowCount();
                     <div class="col s12 m12 l4">
                         <div class="card stats-card">
                             <div class="card-content">
-                                <span class="card-title">Tipo de licencia enumerado</span>
+                                <span class="card-title">Marcas registradas</span>
                                     <?php
 $sql = "SELECT id from  tblleavetype";
 $query = $dbh -> prepare($sql);
@@ -107,15 +107,15 @@ $leavtypcount=$query->rowCount();
                             <div class="card invoices-card">
                                 <div class="card-content">
                                  
-                                    <span class="card-title">Últimas aplicaciones de licencia</span>
+                                    <span class="card-title">Actualización de marcas</span>
                              <table id="example" class="display responsive-table ">
                                     <thead>
                                         <tr>
                                             <th>#</th>
                                             <th width="200">Nombre</th>
-                                            <th width="120">Tipo de licencia</th>
+                                            <th width="120">Marca</th>
 
-                                             <th width="180">Fecha de publicación</th>                 
+                                             <th width="180">Fecha</th>                 
                                             <th>Estado</th>
                                             <th align="center">Acción</th>
                                         </tr>
